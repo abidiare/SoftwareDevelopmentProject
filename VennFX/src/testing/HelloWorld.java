@@ -13,7 +13,7 @@ public class HelloWorld extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
+    //LabTask
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Hello World!");
@@ -33,4 +33,3 @@ public class HelloWorld extends Application {
         primaryStage.show();
     }
 }
-//Lab task
