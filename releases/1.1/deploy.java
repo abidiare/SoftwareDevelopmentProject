@@ -17,7 +17,7 @@ public class deploy
    {
       try
       {
-         Runtime.getRuntime().exec("java --module-path \"../assets/javafx-sdk-13.0.2/lib\" --add-modules javafx.controls,javafx.fxml -jar RunnableFile.jar");
+         Runtime.getRuntime().exec("java --module-path \"../../assets/javafx-sdk-13.0.2/lib\" --add-modules javafx.controls,javafx.fxml -jar RunnableFile.jar");
       }
       catch (IOException e)
       {
